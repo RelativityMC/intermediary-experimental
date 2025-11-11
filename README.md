@@ -1,3 +1,9 @@
+# Experimental intermediary mappings
+
+This repo is for intermediary mappings for 1.21.11 unobfuscated snapshots
+
+Original README below:
+
 # Intermediary mappings
 
 This repository contains the match information between different versions of Minecraft created by the Fabric project, as well as the "intermediary" mappings we use, that is an intermediary naming form which tries to keep names
