@@ -21,7 +21,7 @@ import net.fabricmc.mappingio.format.MappingFormat
 import net.fabricmc.mappingio.adapter.MappingNsCompleter
 
 static List<String> getPublishedVersions() {
-	def xml = new URL("https://maven.fabricmc.net/net/fabricmc/intermediary/maven-metadata.xml").text
+	def xml = new URL("https://repo.codemc.io/repository/relativitymc/org/relativitymc/intermediary-experimental/maven-metadata.xml").text
 	def metadata = new groovy.xml.XmlSlurper().parseText(xml)
 	def versions = metadata.versioning.versions.version*.text();
 	return versions
